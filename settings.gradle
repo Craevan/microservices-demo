@@ -1,5 +1,6 @@
 rootProject.name = "microservices-demo"
 
 includeBuild 'eureka-server'
+includeBuild 'config-server'
 includeBuild 'eureka-client'
 includeBuild 'api-gateway'
